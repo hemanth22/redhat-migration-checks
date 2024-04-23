@@ -1,0 +1,9 @@
+Filesystem          Type      Size  Used Avail Use% Mounted on
+devtmpfs            devtmpfs  3.8G     0  3.8G   0% /dev
+tmpfs               tmpfs     3.8G     0  3.8G   0% /dev/shm
+tmpfs               tmpfs     3.8G  8.5M  3.8G   1% /run
+tmpfs               tmpfs     3.8G     0  3.8G   0% /sys/fs/cgroup
+/dev/mapper/rl-root xfs        52G  4.4G   48G   9% /
+/dev/sda1           xfs      1014M  325M  690M  32% /boot
+/dev/mapper/rl-home xfs        26G  213M   26G   1% /home
+tmpfs               tmpfs     769M     0  769M   0% /run/user/0
