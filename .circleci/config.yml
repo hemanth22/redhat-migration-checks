@@ -12,7 +12,7 @@ jobs:
           name: Execute Shell script
           command: ./redhat-reportv2.sh
       - run:
-          name: Execute Shell script
+          name: Archive the artifacts
           command: |
             cp -v redhat-report.html /tmp/
 
