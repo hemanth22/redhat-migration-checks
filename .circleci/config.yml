@@ -11,6 +11,7 @@ jobs:
       - run:
           name: Execute Shell script
           command: |
+            dnf install procps-ng -y
             chmod 755 ./redhat-reportv2.sh
             ./redhat-reportv2.sh
       - run:
