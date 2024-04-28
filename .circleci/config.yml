@@ -18,7 +18,13 @@ jobs:
           name: Archive the artifacts
           command: |
             cp -v redhat-report.html /tmp/
-
+      - run:
+          name: Leapp report installation and generation
+          command: |
+            dnf install leapp -y
+            dnf install 'leapp-command(upgrade)' -y
+            leapp upgrade
+            cat /var/log/leapp/leapp-report.json
       - store_artifacts:
          path: /tmp/redhat-report.html
 
