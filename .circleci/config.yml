@@ -10,7 +10,9 @@ jobs:
       - checkout
       - run:
           name: Execute Shell script
-          command: ./redhat-reportv2.sh
+          command: |
+            chmod 755 ./redhat-reportv2.sh
+            ./redhat-reportv2.sh
       - run:
           name: Archive the artifacts
           command: |
