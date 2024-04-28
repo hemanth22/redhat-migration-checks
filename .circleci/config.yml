@@ -10,8 +10,7 @@ jobs:
       - checkout
       - run:
           name: Execute Shell script
-          command: |
-            ./redhat-reportv2.sh
+          command: ./redhat-reportv2.sh
 
           name: Execute Shell script
           command: |
