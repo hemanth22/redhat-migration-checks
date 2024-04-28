@@ -1,0 +1,21 @@
+# CircleCI configuration file
+version: 2.1
+
+jobs:
+  build:
+    docker:
+    # Primary container image where all steps run
+     - image: quay.io/hemanth22/rockylinux9:9
+    steps:
+      - checkout
+      - run:
+          name: Execute Shell script
+          command: |
+            ./redhat-reportv2.sh
+
+          name: Execute Shell script
+          command: |
+            cp -v redhat-report.html /tmp/
+
+      - store_artifacts:
+         path: /tmp/redhat-report.html

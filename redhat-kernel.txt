@@ -1,3 +1,3 @@
-Kernel Version: 4.18.0-513.24.1.el8_9.x86_64
-Kernel All details: Linux kubecentos 4.18.0-513.24.1.el8_9.x86_64 #1 SMP Thu Apr 4 18:13:02 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
-Kernel Patch Date: 2024-04-04 18:23:54.000000000 +0000
+Kernel Version: 4.18.0-513.18.1.el8_9.x86_64
+Kernel All details: Linux vserver 4.18.0-513.18.1.el8_9.x86_64 #1 SMP Wed Feb 21 21:34:36 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Kernel Patch Date: 2024-02-21 21:45:16.000000000 +0000
