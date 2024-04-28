@@ -20,3 +20,8 @@ jobs:
 
       - store_artifacts:
          path: /tmp/redhat-report.html
+
+workflows:
+  build_and_test:
+    jobs:
+      - build
